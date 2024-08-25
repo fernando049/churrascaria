@@ -1,0 +1,75 @@
+body {
+    font-family: 'Roboto', sans-serif; /* Fonte mais moderna e legível */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #d32f2f; /* Cor vermelha vibrante */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    max-width: 960px; /* Largura máxima para telas maiores */
+    margin: 20px auto; /* Centraliza o container */
+}
+
+article {
+    flex: 2;
+    padding: 20px;
+}
+
+aside {
+    flex: 1;
+    padding: 20px;
+    background-color: #f5f5f5; /* Cor de fundo suave para o aside */
+}
+
+.promocao, .horario, .contato {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333; 
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10%;
+    transition: transform 0.3s ease; /* Adiciona uma transição suave para a transformação */
+}
+
+img:hover {
+    transform: scale(1.05); /* Aumenta levemente a escala da imagem ao passar o mouse */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra mais pronunciada ao passar o mouse */
+}
